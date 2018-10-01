@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Project Page</title>
+    <link rel="stylesheet" href="./tutorialWebPageDraft.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>JavaScript Small Tutorial</h1>
+        
+    </div>
+    <div class="Function">
+        <h2>Functions</h2>
+        <p></p>
+        <p>A function is a body of code that returns a value. a function can be made by declaring it and then giving it code to run. functions are usually used for putting together multiple methods so they can easily be recalled in the program. here is some raw code for creating a function.</p>
+        <pre><code>
+            function whatTypeIn(){
+                if (typeof userInput === 'string') {
+                    console.log('yep, it is a string');
+                } else if( typeof userInput === 'number') {
+                    console.log("yep it's a number");
+                } else if( typeof userInput === 'boolean') {
+                    console.log("yep, its's a boolean");
+                }
+            }
+        </code></pre>
+        <p>Here I have created the function, "whatTypeIn" which checks the variable "userInput" to see 
+        what type of code it is with an if else statement. I can now recall the whole code to find the type 
+        with "whatTypeIn()".</p>
+    </div>
+    <div class="Arrays">
+        <h2>Arrays</h2>
+        <p></p>
+        <p>An array, in the context of Java, is a dynamically-created object that serves as 
+        a container to hold constant number of values of different types like number and string. 
+        arrays are created when you are nameing a variable/object and use "[]" instead of "{}"
+        
+    </p>
+
+        <pre><code>
+            let burritos = ['large', 4, true]
+        </code></pre>
+        <p>Here we have an array "burritos" now holding a sting, a number, and a boolean.
+            There are also arrays that can be stored inside of arrays that can be called differently
+
+        </p>
+        <pre><code>let students = ['Tony',"Marshal",'Reese','Ray', 23 ,true,['Ryan','Iesha']];
+                console.log(`hello ${students[6][1]} you look nice today`);
+        </code></pre>
+        <p>to call a value from an array within an array, it needs the function above.</p>
+    </div>
+    
+    <div class="Conditionals">
+        <h2>Conditionals</h2>
+        <p></p>
+        <p>Conditional statements are used to check what a vairable is or is doing to decide wether 
+        to run code or not. for example, an if statement can be used to see if a variable is a number 
+        and if so it will run a piece of code, but if not it will run a different piece of code.</p>
+        <pre><code>
+            let x = 20;
+
+             if(typeof x == 'number'){
+                console.log('this is a number');
+            } else {
+                console.log('this is not a number');
+            }
+        </code></pre>
+        <p>In the code above, the conditional is checking type of value x is, wether it is a 
+            string, number, etc. and gives a specific message if it is a number.</p>
+    </div>
+    <div class="Footer">
+
+    </div>
+<div class="back"></div>
+
+
+</body>
+</html>

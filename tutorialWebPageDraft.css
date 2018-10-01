@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    border:solid black;
+}
+
+.Function {
+width: 75%;
+height: 350px;
+background-color: olivedrab;
+margin-left: 12%;
+border: solid;
+padding:5px;
+}
+
+.Arrays {
+    width: 75% ;
+    height: 325px;
+    background-color: olivedrab;
+    margin-left: 12%;
+    border: solid;
+    padding: 5px;
+}
+
+.Conditionals {
+    width: 75% ;
+    height: 350px;
+    background-color: olivedrab;
+    margin-left: 12%;
+    border: solid;
+    padding: 5px;
+}
+
+.Footer {
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    border:solid black;
+    
+}
+
+body{
+    background-color: rgba(20, 21, 92, 0.514); 
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
